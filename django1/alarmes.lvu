@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LogixViewProject LastUpdated="09/06/2021 16:34:44" LVU_Version="Version 6.3.0.18">
+  <ControllerFiles CurrentControllerName="S3PAC01_Principal.L5X">
+    <ControllerFile ControllerName="S3PAC01_Principal" XmlFileName="">
+      <LogixDescFormat>
+        <NumberOfFields>1</NumberOfFields>
+        <Delimiter>vbCrLf</Delimiter>
+        <TagLabelFields>0</TagLabelFields>
+        <TagDescFields>1</TagDescFields>
+        <TagEngineeringUnitFields>0</TagEngineeringUnitFields>
+        <FieldDescriptors>
+          <Field Name="1" Descriptor="" />
+        </FieldDescriptors>
+      </LogixDescFormat>
+    </ControllerFile>
+    <ControllerFile ControllerName="S3PAC02_Exaustor" XmlFileName="">
+      <LogixDescFormat>
+        <NumberOfFields>1</NumberOfFields>
+        <Delimiter>vbCrLf</Delimiter>
+        <TagLabelFields>0</TagLabelFields>
+        <TagDescFields>1</TagDescFields>
+        <TagEngineeringUnitFields>0</TagEngineeringUnitFields>
+        <FieldDescriptors>
+          <Field Name="1" Descriptor="" />
+        </FieldDescriptors>
+      </LogixDescFormat>
+    </ControllerFile>
+  </ControllerFiles>
+  <HMI>
+    <ControllerHMI ControllerName="S3PAC01_Principal">
+      <DataServerAreaName>sinter4/Dados_1</DataServerAreaName>
+      <DataServerShortcutName>S3PAC01_Principal</DataServerShortcutName>
+      <DataServerName>Dados_1</DataServerName>
+      <HmiServerName>HMI projects</HmiServerName>
+      <HmiServerAreaName>sinter4</HmiServerAreaName>
+      <HmiDir>C:\Documents and Settings\All Users\Documents\RSView Enterprise\SE\HMI projects</HmiDir>
+      <HmiGfxFileDir />
+      <HmiParFileDir>C:\Documents and Settings\All Users\Documents\RSView Enterprise\SE\HMI projects\PAR</HmiParFileDir>
+      <HmiGfxXmlFileDir>C:\Documents and Settings\All Users\Documents\RSView Enterprise\SE\HMI projects\gfx_xml</HmiGfxXmlFileDir>
+      <LogixViewHmiXmlFileName>C:\Documents and Settings\All Users\Documents\RSView Enterprise\SE\HMI projects\LogixView_HMI projects.xml</LogixViewHmiXmlFileName>
+      <ApplicationName>Sinter4_PlantPAx</ApplicationName>
+      <ProductType>RSViewDistributed</ProductType>
+      <HmiLibraryName>EmptyHmiLibrary</HmiLibraryName>
+    </ControllerHMI>
+    <ControllerHMI ControllerName="S3PAC02_Exaustor">
+      <DataServerAreaName>sinter4/Dados_1</DataServerAreaName>
+      <DataServerShortcutName>S3PAC02_Exaustor</DataServerShortcutName>
+      <DataServerName>Dados_1</DataServerName>
+      <HmiServerName>HMI projects</HmiServerName>
+      <HmiServerAreaName>sinter4</HmiServerAreaName>
+      <HmiDir>C:\Documents and Settings\All Users\Documents\RSView Enterprise\SE\HMI projects</HmiDir>
+      <HmiGfxFileDir />
+      <HmiParFileDir>C:\Documents and Settings\All Users\Documents\RSView Enterprise\SE\HMI projects\PAR</HmiParFileDir>
+      <HmiGfxXmlFileDir>C:\Documents and Settings\All Users\Documents\RSView Enterprise\SE\HMI projects\gfx_xml</HmiGfxXmlFileDir>
+      <LogixViewHmiXmlFileName>C:\Documents and Settings\All Users\Documents\RSView Enterprise\SE\HMI projects\LogixView_HMI projects.xml</LogixViewHmiXmlFileName>
+      <ApplicationName>Sinter4_PlantPAx</ApplicationName>
+      <ProductType>RSViewDistributed</ProductType>
+      <HmiLibraryName>EmptyHmiLibrary</HmiLibraryName>
+    </ControllerHMI>
+  </HMI>
+  <ProjectObjects>
+    <ProjectObject Name="Alarmes_CSN" DisplayName="Alarmes_CSN" Desc="" ParentName="" NodeIndex="0">
+      <IsSharing>False</IsSharing>
+      <SharedBaseObjectName />
+      <CanBeShared>False</CanBeShared>
+      <Tags />
+    </ProjectObject>
+    <ProjectObject Name="(sinter-3) exaustor motor.xml" DisplayName="exaustor_motor" Desc="" ParentName="Alarmes_CSN" NodeIndex="0">
+      <IsSharing>False</IsSharing>
+      <SharedBaseObjectName />
+      <CanBeShared>False</CanBeShared>
+      <Tags />
+    </ProjectObject>
+    <ProjectObject Name="(sinter-3) forno ignicao.xml" DisplayName="forno_ignicao" Desc="" ParentName="Alarmes_CSN" NodeIndex="1">
+      <IsSharing>False</IsSharing>
+      <SharedBaseObjectName />
+      <CanBeShared>False</CanBeShared>
+      <Tags />
+    </ProjectObject>
+    <ProjectObject Name="P_Motor0" DisplayName="P_Motor0" Desc="" ParentName="(sinter-3) exaustor motor.xml" NodeIndex="0">
+      <IsSharing>False</IsSharing>
+      <SharedBaseObjectName />
+      <CanBeShared>False</CanBeShared>
+      <Tags>
+      </Tags>
+    </ProjectObject>
+    <ProjectObject Name="P_DOut0" DisplayName="P_DOut0" Desc="" ParentName="(sinter-3) exaustor motor.xml" NodeIndex="1">
+      <IsSharing>False</IsSharing>
+      <SharedBaseObjectName />
+      <CanBeShared>False</CanBeShared>
+      <Tags>
+      </Tags>
+    </ProjectObject>
+    <ProjectObject Name="P_PIDE0" DisplayName="P_PIDE0" Desc="" ParentName="(sinter-3) exaustor motor.xml" NodeIndex="2">
+      <IsSharing>False</IsSharing>
+      <SharedBaseObjectName />
+      <CanBeShared>False</CanBeShared>
+      <Tags>
+      </Tags>
+    </ProjectObject>
+    <ProjectObject Name="P_PF7550" DisplayName="P_PF7550" Desc="" ParentName="(sinter-3) exaustor motor.xml" NodeIndex="3">
+      <IsSharing>False</IsSharing>
+      <SharedBaseObjectName />
+      <CanBeShared>False</CanBeShared>
+      <Tags>
+      </Tags>
+    </ProjectObject>
+    <ProjectObject Name="P_DInAdv0" DisplayName="P_DInAdv0" Desc="" ParentName="(sinter-3) exaustor motor.xml" NodeIndex="4">
+      <IsSharing>False</IsSharing>
+      <SharedBaseObjectName />
+      <CanBeShared>False</CanBeShared>
+      <Tags>
+      </Tags>
+    </ProjectObject>
+    <ProjectObject Name="P_ValveSO0" DisplayName="P_ValveSO0" Desc="" ParentName="(sinter-3) exaustor motor.xml" NodeIndex="5">
+      <IsSharing>False</IsSharing>
+      <SharedBaseObjectName />
+      <CanBeShared>False</CanBeShared>
+      <Tags>
+      </Tags>
+    </ProjectObject>
+    <ProjectObject Name="P_AInAdv0" DisplayName="P_AInAdv0" Desc="" ParentName="(sinter-3) exaustor motor.xml" NodeIndex="6">
+      <IsSharing>False</IsSharing>
+      <SharedBaseObjectName />
+      <CanBeShared>False</CanBeShared>
+      <Tags>
+      </Tags>
+    </ProjectObject>
+    <ProjectObject Name="P_MotorRev0" DisplayName="P_MotorRev0" Desc="" ParentName="(sinter-3) exaustor motor.xml" NodeIndex="7">
+      <IsSharing>False</IsSharing>
+      <SharedBaseObjectName />
+      <CanBeShared>False</CanBeShared>
+      <Tags>
+      </Tags>
+    </ProjectObject>
+    <ProjectObject Name="P_ValveC0" DisplayName="P_ValveC0" Desc="" ParentName="(sinter-3) exaustor motor.xml" NodeIndex="8">
+      <IsSharing>False</IsSharing>
+      <SharedBaseObjectName />
+      <CanBeShared>False</CanBeShared>
+      <Tags>
+      </Tags>
+    </ProjectObject>
+    <ProjectObject Name="P_Motor1" DisplayName="P_Motor1" Desc="" ParentName="(sinter-3) forno ignicao.xml" NodeIndex="0">
+      <IsSharing>False</IsSharing>
+      <SharedBaseObjectName />
+      <CanBeShared>False</CanBeShared>
+      <Tags>
+      </Tags>
+    </ProjectObject>
+    <ProjectObject Name="P_DOut1" DisplayName="P_DOut1" Desc="" ParentName="(sinter-3) forno ignicao.xml" NodeIndex="1">
+      <IsSharing>False</IsSharing>
+      <SharedBaseObjectName />
+      <CanBeShared>False</CanBeShared>
+      <Tags>
+      </Tags>
+    </ProjectObject>
+    <ProjectObject Name="P_PIDE1" DisplayName="P_PIDE1" Desc="" ParentName="(sinter-3) forno ignicao.xml" NodeIndex="2">
+      <IsSharing>False</IsSharing>
+      <SharedBaseObjectName />
+      <CanBeShared>False</CanBeShared>
+      <Tags>
+      </Tags>
+    </ProjectObject>
+    <ProjectObject Name="P_PF7551" DisplayName="P_PF7551" Desc="" ParentName="(sinter-3) forno ignicao.xml" NodeIndex="3">
+      <IsSharing>False</IsSharing>
+      <SharedBaseObjectName />
+      <CanBeShared>False</CanBeShared>
+      <Tags>
+      </Tags>
+    </ProjectObject>
+    <ProjectObject Name="P_DInAdv1" DisplayName="P_DInAdv1" Desc="" ParentName="(sinter-3) forno ignicao.xml" NodeIndex="4">
+      <IsSharing>False</IsSharing>
+      <SharedBaseObjectName />
+      <CanBeShared>False</CanBeShared>
+      <Tags>
+      </Tags>
+    </ProjectObject>
+    <ProjectObject Name="P_ValveSO1" DisplayName="P_ValveSO1" Desc="" ParentName="(sinter-3) forno ignicao.xml" NodeIndex="5">
+      <IsSharing>False</IsSharing>
+      <SharedBaseObjectName />
+      <CanBeShared>False</CanBeShared>
+      <Tags>
+      </Tags>
+    </ProjectObject>
+    <ProjectObject Name="P_AInAdv1" DisplayName="P_AInAdv1" Desc="" ParentName="(sinter-3) forno ignicao.xml" NodeIndex="6">
+      <IsSharing>False</IsSharing>
+      <SharedBaseObjectName />
+      <CanBeShared>False</CanBeShared>
+      <Tags>
+      </Tags>
+    </ProjectObject>
+    <ProjectObject Name="P_MotorRev1" DisplayName="P_MotorRev1" Desc="" ParentName="(sinter-3) forno ignicao.xml" NodeIndex="7">
+      <IsSharing>False</IsSharing>
+      <SharedBaseObjectName />
+      <CanBeShared>False</CanBeShared>
+      <Tags>
+      </Tags>
+    </ProjectObject>
+    <ProjectObject Name="P_ValveC1" DisplayName="P_ValveC1" Desc="" ParentName="(sinter-3) forno ignicao.xml" NodeIndex="8">
+      <IsSharing>False</IsSharing>
+      <SharedBaseObjectName />
+      <CanBeShared>False</CanBeShared>
+      <Tags>
+      </Tags>
+    </ProjectObject>
+  </ProjectObjects>
+  <ProjectObjects_LogixCodes />
+<ProjectObjects_HmiFiles>
+  <ProjectObject_HmiFiles Name="Alarmes_CSN">
+    <GfxFiles />
+    <GfxXmlFiles />
+  </ProjectObject_HmiFiles>
+  <ProjectObject_HmiFiles Name="(sinter-3) exaustor motor.xml">
+    <GfxFiles />
+    <GfxXmlFiles />
+  </ProjectObject_HmiFiles>
+  <ProjectObject_HmiFiles Name="(sinter-3) forno ignicao.xml">
+    <GfxFiles />
+    <GfxXmlFiles />
+  </ProjectObject_HmiFiles>
+  </ProjectObjects_HmiFiles>
+  <AlarmServers>
+    <AlarmServer Name="Alarmes_1" Desc="" LastAeXmlFileCreatedUsingAlarmGroups="False">
+      <Controllers>
+        <Controller ControllerName="S3PAC01_Principal" />
+        <Controller ControllerName="S3PAC02_Exaustor" />
+      </Controllers>
+      <Folders />
+   </AlarmServer>
+  </AlarmServers>
+  <HistorianServers />
+</LogixViewProject>

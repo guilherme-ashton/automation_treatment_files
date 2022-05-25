@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Django1- Index</title>
+</head>
+<body>
+<h1>Escolha os arquivos que serão tratados e faça o download</h1>
+<form action="{% url 'l5x' %}" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <br /><br />
+    {{ form }}
+    <br /><br />
+<button onclick="adicionaArquivoL5X()">Click me</button>
+</form>
+</body>
+    <br /><br />
+    <a href="{% url 'index' %}" target="_blank"><button>Ir para XML</button></a>
+    <br /><br />
+    <a href="/lvu" target="_blank"><button>Ir para LVU</button></a>
+ <br /><br />
+    <a href="/intlk" target="_blank"><button>Ir para INTLK</button></a>
+</body>
+
+</html>
